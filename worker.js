@@ -1,18 +1,18 @@
 export const api = {
   icon: '🚀',
-  name: 'templates.do',
-  description: 'Cloudflare Worker Template',
-  url: 'https://templates.do/api',
-  type: 'https://apis.do/templates',
+  name: 'customers.do',
+  description: 'Customer Management API',
+  url: 'https://customers.do/api',
+  type: 'https://apis.do/saas',
   endpoints: {
-    listCategories: 'https://templates.do/api',
-    getCategory: 'https://templates.do/:type',
+    listCategories: 'https://customers.do/api',
+    getCategory: 'https://customers.do/:type',
   },
-  site: 'https://templates.do',
-  login: 'https://templates.do/login',
-  signup: 'https://templates.do/signup',
-  subscribe: 'https://templates.do/subscribe',
-  repo: 'https://github.com/drivly/templates.do',
+  site: 'https://customers.do',
+  login: 'https://customers.do/login',
+  signup: 'https://customers.do/signup',
+  subscribe: 'https://customers.do/subscribe',
+  repo: 'https://github.com/drivly/customers.do',
 }
 
 export const gettingStarted = [
@@ -21,7 +21,7 @@ export const gettingStarted = [
 ]
 
 export const examples = {
-  listItems: 'https://templates.do/worker',
+  listItems: 'https://customers.do/worker',
 }
 
 export default {
